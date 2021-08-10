@@ -25,6 +25,7 @@
   h1 {
     font-weight: 300;
     font-size: 3em;
+    margin-bottom: 22px;
   }
   p {
     font-weight: 300;
@@ -32,6 +33,7 @@
     width: 80%;
     margin-top: 0;
     line-height: 1.4em;
+    margin-bottom: 22px;
   }
 
   .green {
@@ -42,7 +44,7 @@
 .heroImg {
   width: 70%;
   height: 70%;
-  background-image: url(../../images/kalehero2.png);
+  background-image: url(../../images/headerkaleimg.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -54,11 +56,12 @@
   background-color: #3ccd9d;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 0.9rem;
   border: 2px solid #3ccd9d;
   color: white;
 }
 
 .button1:hover {
   background-color: white;
-  color: black;
+  color: #3ccd9d;
 }
