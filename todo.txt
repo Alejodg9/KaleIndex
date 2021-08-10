@@ -1,0 +1,16 @@
+TODO
+
+✅- hacer responsive el header
+✅- hacer responsive los works
+✅-aplicar cambio de lenguage dinamico
+✅-  completar los textos de prpoyetos
+✅- terminar de piulir Footer
+✅- agregar contact me
+✅- alert del contact
+ 
+ 
+🌗- definir dominio
+- mejorar imagenes
+- cambiar fot github
+- agergar metadata a pagina para wpp
+- agergar metadata a camarawuilmes, la galera par aponer en linked in
