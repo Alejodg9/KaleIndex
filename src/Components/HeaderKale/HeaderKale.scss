@@ -8,19 +8,30 @@
   display: flex;
   flex-direction: row;
   font-family: "Montserrat", sans-serif;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    padding-left: 2em;
+    justify-content: center;
+  }
 }
-
 .izq {
+  display: none;
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 600px) {
+    width: 80%;
+  }
 }
 .der {
   width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  @media (max-width: 600px) {
+    width: 80%;
+  }
 
   h1 {
     font-weight: 300;
@@ -34,6 +45,9 @@
     margin-top: 0;
     line-height: 1.4em;
     margin-bottom: 22px;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
   }
 
   .green {
@@ -51,7 +65,7 @@
 }
 
 .button1 {
-  height: 5%;
+  /* height: 5%; */
   width: 20%;
   background-color: #3ccd9d;
   font-family: "Montserrat", sans-serif;
@@ -59,6 +73,10 @@
   font-size: 0.9rem;
   border: 2px solid #3ccd9d;
   color: white;
+  border-radius: 2px;
+  @media (max-width: 600px) {
+    width: 50%;
+  }
 }
 
 .button1:hover {
